@@ -102,6 +102,12 @@ public class Web extends AppCompatActivity {
 
             }
 
+            if(value.equals("13")){
+
+                myWebView.loadUrl("https://www.worldometers.info/coronavirus/country/netherlands/");
+
+            }
+
 
 
         }
