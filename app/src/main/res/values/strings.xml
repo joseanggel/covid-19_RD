@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Covid-19_RD</string>
+    <string-array name="country">
+        <item>Mundial</item>
+        <item>Estados Unidos</item>
+        <item>Italia</item>
+        <item>España</item>
+        <item>Francia</item>
+        <item>China</item>
+        <item>Iran</item>
+        <item>República Dominicana</item>
+        <item>Alemania</item>
+        <item>Reino Unido</item>
+        <item>Bélgica</item>
+        <item>México</item>
+        <item>Turquía</item>
+    </string-array>
+</resources>
