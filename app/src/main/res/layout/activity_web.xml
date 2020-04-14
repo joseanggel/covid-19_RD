@@ -7,9 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".Web">
 <!--    729-->
+<!--    409dp-->
     <WebView
         android:id="@+id/webview"
-        android:layout_width="409dp"
+        android:layout_width="390dp"
         android:layout_height="800dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
