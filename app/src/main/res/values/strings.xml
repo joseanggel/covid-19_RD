@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Covid-19_RD</string>
+    <string name="buscar">Buscar</string>
+    <string name="mas">mas</string>
     <string-array name="country">
         <item>Mundial</item>
         <item>Afganistán</item>

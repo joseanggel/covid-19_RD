@@ -12,12 +12,10 @@ public class Web extends AppCompatActivity {
         setContentView(R.layout.activity_web);
         WebView myWebView = findViewById(R.id.webview);
         final String[] countryList = getResources().getStringArray(R.array.countryEN);
-
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("key");
             assert value != null;
-
             if(value.equals("0")){
                 myWebView.loadUrl("https://www.worldometers.info/coronavirus/");
             }
