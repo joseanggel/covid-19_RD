@@ -1,7 +1,7 @@
 package com.example.covid_19_rd;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.MenuItemCompat;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +19,7 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity{
 
     ArrayAdapter<String> mAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +41,8 @@ public class MainActivity extends AppCompatActivity{
                 String itemName = (String) parent.getItemAtPosition(position);
                 String[] country_original;
                 country_original = getResources().getStringArray(R.array.country);
-                int position_fo_item = Arrays.asList(country_original).indexOf(itemName);
-                String value = String.valueOf(position_fo_item);
+                int position_for_item = Arrays.asList(country_original).indexOf(itemName);
+                String value = String.valueOf(position_for_item);
                 Intent i = new Intent(MainActivity.this, Web.class);
                 i.putExtra("key",value);
                 startActivity(i);
